@@ -1,10 +1,11 @@
+import Header from "./ui/Header"
 
 function App() {
  
   return (
-    <>
-      <h1>This is header</h1>
-    </>
+    <main>
+    <Header/>
+    </main>
   )
 }
 
