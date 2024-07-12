@@ -8,7 +8,7 @@ const Banner = () => {
         <img src={banner} alt="banner" className="" />
       </div>
       <div className="max-w-screen-xl mx-auto p-4">
-        {/* text content  */}
+        {/* profile  */}
         <div className=" w-1/2 flex flex-col lg:flex-row items-center justify-between">
           <div className="  flex items-center gap-4">
             <img
@@ -16,9 +16,14 @@ const Banner = () => {
               alt="profile"
               className="w-16 lg:w-24 text-center top-40 lg:top-80   "
             />
-            <h1 className="text-balance lg:text-2xl font-bodyFont font-bold">
-              John Deo
-            </h1>
+            <div className="mt-12">
+              <h1 className="text-balance lg:text-2xl font-bodyFont font-bold">
+                John Deo
+              </h1>
+              <h1 className="w-40 font-bodyFont">
+                Astrophotographer 🌌 Gamer 👾
+              </h1>
+            </div>
 
             <GoDotFill />
             <p className="btn-link">@johndoe</p>
@@ -27,9 +32,30 @@ const Banner = () => {
             Follow
           </button>
         </div>
-        sdfdsds
-        {/* video content  */}
-        <div></div>
+
+        {/*   */}
+        <div className="flex flex-col lg:flex-row justify-between">
+          <div className="w-1/2 my-16">
+            <h1 className="text-[26px] font-bodyFont font-bold">
+              How Astrophotography changed my life
+            </h1>
+            <p className="my-6 font-bodyFont">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
+              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
+              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
+              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
+              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
+              per conubia nostra, per inceptos himenaeos. Praesent auctor purus
+              luctus enim egestas, ac scelerisque ante pulvinar. Donec ut
+              rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur
+              vel bibendum lorem. Morbi convallis convallis diam sit amet
+              lacinia. Aliquam in elementum tellus. Curabitur tempor quis eros
+              tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut
+              vulputate nisi. Integer in felis sed leo vestibulum venenatis.
+              Suspendisse{" "}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
