@@ -1,6 +1,13 @@
 import { GoDotFill } from "react-icons/go";
 import banner from "../assets/images/Profile Background.png";
 import profile from "../assets/images/Profile.png";
+import CustomComponent from "./CustomComponent";
+import img1 from '../assets/images/Rectangle1.png'
+import img2 from '../assets/images/Rectangle 2.png'
+import img3 from '../assets/images/Rectangle 3.png'
+import img4 from '../assets/images/Rectangle 4.png'
+import video1 from '../assets/images/video/video.png'
+import btn1 from '../assets/images/video/Btn Player.png'
 const Banner = () => {
   return (
     <div className="bg-[#F1F1F1]">
@@ -34,41 +41,33 @@ const Banner = () => {
         </div>
 
         {/*   */}
-        <div className="flex flex-col lg:flex-row justify-between ">
-          <div className="w-1/2 my-16 border p-4 rounded-lg">
-            <h1 className="text-[26px] font-bodyFont font-bold">
-              How Astrophotography changed my life
-            </h1>
-            <p className="my-6 font-bodyFont">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra, per inceptos himenaeos. Praesent auctor purus
-              luctus enim egestas, ac scelerisque ante pulvinar. Donec ut
-              rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur
-              vel bibendum lorem. Morbi convallis convallis diam sit amet
-              lacinia. Aliquam in elementum tellus. Curabitur tempor quis eros
-              tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut
-              vulputate nisi. Integer in felis sed leo vestibulum venenatis.
-              Suspendisse{" "}
-            </p>
-            {/* link  */}
-            <div className="flex flex-row justify-between items-center">
-            <div className="flex flex-wrap gap-2">
-              <button className="text-blue-600 bg-white px-3 py-2 rounded-full">#photography</button>
-              <button className="text-blue-600 bg-white px-3 py-2 rounded-full">#astronomy</button>
-              <button className="text-blue-600 bg-white px-3 py-2 rounded-full">#astrophotography</button>
-              <button className="text-blue-600 bg-white px-3 py-2 rounded-full font-bold">+</button>
-            </div>
-   <button className="text-xl text-blue-600 font-bodyFont font-bold">Read More</button>
-            </div>
+        <div className="flex flex-col lg:flex-row  justify-between">
+          <div>
+            <CustomComponent title="How Astrophotography changed my life" />
+            <CustomComponent title="Which Telescope and DSLR I use" />
           </div>
-                   {/* video content  */}
-<div>
-asdfsdfd
-</div>
+          {/* image and video  */}
+          <div className="">
+            <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Photos</h1>
+            <div className="lg:w-80 grid grid-cols-2 ">
+              <img src={img1} alt="" className="rounded-tl-xl"/>
+              <img src={img2} alt="" />
+              <img src={img3} alt="" />
+              <img src={img4} alt="" />
+            </div>
+            <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
+         {/* video  */}
+         <div>
+          {/* video 1  */}
+          <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Videos</h1>
+          <div className="relative">
+            <img src={video1} alt=""  />
+            <img src={btn1} alt="" className="absolute bottom-0 left-16 top-12" />
+
+          </div>
+
+         </div>
+          </div>
         </div>
       </div>
     </div>
