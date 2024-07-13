@@ -7,7 +7,11 @@ import img2 from '../assets/images/Rectangle 2.png'
 import img3 from '../assets/images/Rectangle 3.png'
 import img4 from '../assets/images/Rectangle 4.png'
 import video1 from '../assets/images/video/video.png'
-import btn1 from '../assets/images/video/Btn Player.png'
+import btn from '../assets/images/video/Btn Player.png'
+import video2 from '../assets/images/video/video2.png'
+import video4 from '../assets/images/video/video4.png'
+import video5 from '../assets/images/video/video5.png'
+
 const Banner = () => {
   return (
     <div className="bg-[#F1F1F1]">
@@ -55,16 +59,31 @@ const Banner = () => {
               <img src={img3} alt="" />
               <img src={img4} alt="" />
             </div>
-            <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
          {/* video  */}
-         <div>
-          {/* video 1  */}
+         <div className="my-10">
           <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Videos</h1>
+          {/* video 1  */}
           <div className="relative">
-            <img src={video1} alt=""  />
-            <img src={btn1} alt="" className="absolute bottom-0 left-16 top-12" />
-
+            <img src={video1} alt="" className="lg:w-full" />
+            <img src={btn} alt="" className="lg:w-20 absolute bottom-0 left-32 top-16" />
           </div>
+          {/* video 2  */}
+         <div className="flex gap-3">
+         <div className="relative mt-6">
+            <img src={video2} alt="" className="w-24" />
+            <img src={btn} alt="" className=" absolute bottom-0 left-10 top-10" />
+          </div>
+          <div className="relative mt-6">
+            <img src={video5} alt="" className="w-24" />
+            <img src={btn} alt="" className=" absolute bottom-0 left-10 top-10" />
+          </div>
+          <div className="relative mt-6">
+            <img src={video4} alt="" className="w-24" />
+            <img src={btn} alt="" className=" absolute bottom-0 left-10 top-10" />
+          </div>
+
+         </div>
+          <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
 
          </div>
           </div>
