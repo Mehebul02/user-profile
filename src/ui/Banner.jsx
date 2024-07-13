@@ -59,8 +59,9 @@ const Banner = () => {
               <img src={img3} alt="" />
               <img src={img4} alt="" />
             </div>
+            <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
          {/* video  */}
-         <div className="my-10">
+         <div>
           <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Videos</h1>
           {/* video 1  */}
           <div className="relative">
@@ -81,9 +82,8 @@ const Banner = () => {
             <img src={video4} alt="" className="w-24" />
             <img src={btn} alt="" className=" absolute bottom-0 left-10 top-10" />
           </div>
-
          </div>
-          <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
+         <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
 
          </div>
           </div>

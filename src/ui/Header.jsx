@@ -4,6 +4,7 @@ import { HiOutlineDotsHorizontal } from 'react-icons/hi';
 import { FaRegBell } from 'react-icons/fa';
 import { CiSearch } from 'react-icons/ci';
 import { FaPencil, FaRegMessage } from 'react-icons/fa6';
+import profile from '../assets/images/Profile.png'
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -48,7 +49,7 @@ const Header = () => {
   </div>
   <div className="avatar">
    <div className="w-12 rounded-full">
-   <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+   <img src={profile} />
    </div>
    </div>
   </div>
