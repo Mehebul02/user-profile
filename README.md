@@ -1,8 +1,6 @@
 # User Profile
-
-## Table of Contents
-- [Live Link](#https://user-profile-virid.vercel.app)
-- [Github Link](#https://github.com/Mehebul02/user-profile)
+[Live-Site](https://user-profile-virid.vercel.app)
+[Client-Repository](https://github.com/Mehebul02/user-profile)
 ## Installation
 
 Step-by-step instructions on how to set up and install your project.
