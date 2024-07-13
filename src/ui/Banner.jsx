@@ -18,14 +18,14 @@ const Banner = () => {
       <div className=" relative">
         <img src={banner} alt="banner" className="w-full" />
       </div>
-      <div className="max-w-screen-xl mx-auto  p-4">
+      <div className="max-w-screen-xl mx-auto  lg:p-4">
         {/* profile  */}
-        <div className=" w-1/2  flex flex-col lg:flex-row items-center justify-between">
-          <div className="  flex items-center gap-4">
+        <div className=" w-1/2  flex flex-col lg:flex-row items-center justify-between ">
+          <div className="ml-28 -mt-14 z-10  flex items-center gap-1 lg:gap-3 p-3 ">
             <img
               src={profile}
               alt="profile"
-              className="w-16 lg:w-24 text-center top-40 lg:top-80   "
+              className="w-16 lg:w-24 text-center"
             />
             <div className="mt-12">
               <h1 className="text-balance lg:text-2xl font-bodyFont font-bold">
@@ -39,7 +39,7 @@ const Banner = () => {
             <GoDotFill />
             <p className="btn-link">@johndoe</p>
           </div>
-          <button className="px-4 py-1 text-2xl text-white font-semibold font-bodyFont bg-[#196AA0] rounded-full">
+          <button className="ml-20 px-4 py-1 text-2xl text-white font-semibold font-bodyFont bg-[#196AA0] rounded-full">
             Follow
           </button>
         </div>
@@ -51,7 +51,7 @@ const Banner = () => {
             <CustomComponent title="Which Telescope and DSLR I use" />
           </div>
           {/* image and video  */}
-          <div className="">
+          <div className="p-4">
             <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Photos</h1>
             <div className="lg:w-80 grid grid-cols-2 ">
               <img src={img1} alt="" className="rounded-tl-xl"/>
@@ -59,7 +59,7 @@ const Banner = () => {
               <img src={img3} alt="" />
               <img src={img4} alt="" />
             </div>
-            <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
+            <h1 className="lg:text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
          {/* video  */}
          <div>
           <h1 className="text-2xl text-[#2B2B2B] font-bodyFont font-bold ">Videos</h1>
@@ -83,7 +83,7 @@ const Banner = () => {
             <img src={btn} alt="" className=" absolute bottom-0 left-10 top-10" />
           </div>
          </div>
-         <h1 className="text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
+         <h1 className="lg:text-2xl text-end font-bodyFont font-semibold text-blue-700">More +</h1>
 
          </div>
           </div>

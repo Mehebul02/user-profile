@@ -2,7 +2,7 @@
 const CustomComponent = ({title}) => {
     return (
         <div className="max-w-[700px] my-16 border p-4 rounded-lg">
-        <h1 className="text-[26px] font-bodyFont font-bold">
+        <h1 className="text-2xl lg:text-[26px] font-bodyFont font-bold">
          { title}
         </h1>
         <p className=" my-6 font-bodyFont">
@@ -28,7 +28,7 @@ const CustomComponent = ({title}) => {
           <button className="text-blue-600 bg-white px-3 py-2 rounded-full">#astrophotography</button>
           <button className="text-blue-600 bg-white px-3 py-2 rounded-full font-bold">+</button>
         </div>
-<button className="text-xl text-blue-600 font-bodyFont font-bold">Read More</button>
+<button className="lg:text-xl text-blue-600 font-bodyFont font-bold">Read More</button>
         </div>
       </div>
     );

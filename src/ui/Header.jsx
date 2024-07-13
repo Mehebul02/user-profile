@@ -15,7 +15,7 @@ const Header = () => {
     <img src={logo} alt="" />
   <h1 className='lg:text-2xl text-[#F1F1F1] font-bold font-bodyFont '>Logoipsum</h1>
   </div>
- <div>
+ <div className='flex items-center gap-4'>
  <div className="md:hidden">
     <button
       onClick={() => setIsOpen(!isOpen)}
